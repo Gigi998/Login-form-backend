@@ -22,6 +22,13 @@ Most of the principles were taken from these tutorials.
   implemented on employees API.
 - Authorization => jsonwebtoken(access and refresh), roles access
 - Passwords are hashed using bcrypt
+- There are three roles in project: admin, editor, user
+- New user only can access linkpage
+- If you want to try other features you can login with admin user
+- Admin user has ful access to every resource
+
+username: Admin<br>
+password: 1234admin
 
 ## Frontend
 
